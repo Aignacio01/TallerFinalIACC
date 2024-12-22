@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header class="header">
+        <!-- Header Container -->
+        <div class="header__container">
+            <a class="header__logo" href="">
+                <img class="header__image" src="./IMG/logo.png" alt="">
+            </a>
+
+            <!-- nav -->
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#">Inicio</a>
+                <a class="nav__link" href="#">Sobre</a>
+                <a class="nav__link" href="#">Servicios</a>
+                <a class="nav__link" href="#">Contacto</a>
+            </nav>
+            <div class="menu__nav" id="menu">
+                <img class="menu__image" src="./ICON/app.png" alt="">
+            </div>
+            <!-- nav -->
+        </div>
+        <!-- Header Container -->
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Start Hero Section -->
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__grid">
+                <div class="hero__info">
+                    <h1 class="hero__title">Lorem, ipsum dolor.</h1>
+                    <p class="hero__par">Lorem ipsum dolor sit amet consectetur.</p>
+                    <button class="hero__button" id="hero__button">Almacena tus productos</button>
+                </div>
+                <div class="hero__image">
+                    <img class="hero__img" src="./IMG/hero1.png" alt="hero image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+    <!-- Start Main Section -->
+
+    <main class="main">
+        <div class="main__container">
+            <div class="main__grid">
+                <div class="main__info">
+                    <h2 class="main__title">Lorem ipsum dolor sit amet consectetur.</h2>
+                    <p class="main__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ea, quaerat atque officia quas dolorem accusantium? Tenetur at rem odit. Incidunt suscipit cumque inventore fugiat voluptates vel soluta dolorum illo.</p>
+                </div>
+                <div class="main__images__grid">
+                    <img class="main__images" src="./IMG/main.jpg" alt="main images 1">
+                    <img class="main__images image__expand" src="./IMG/main2.jpg" alt="main images 2">
+                    <img class="main__images" src="./IMG/main3.jpg" alt="main images 3">
+                    <img class="main__images" src="./IMG/main4.jpg" alt="main images 4">
+                    <img class="main__images" src="./IMG/main5.jpg" alt="main images 5">
+                    <img class="main__images" src="./IMG/main6.jpg" alt="main images 6">
+                    <img class="main__images" src="./IMG/main7.jpg" alt="main images 7">
+                    <img class="main__images" src="./IMG/main8.jpg" alt="main images 8">
+                    <img class="main__images" src="./IMG/main9.jpg" alt="main images 9">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Main Section -->
+
+     <!-- Start services section -->
+     <section class="services">
+        <div class="services__container">
+            <div class="services__grid">
+                <div class="services__card">
+                    <div class="card__info">
+                        <img class="card__image" src="./ICON/storage.png" alt="">
+                        <h2 class="card__title">Lorem, ipsum dolor.</h2>
+                        <p class="card__par">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="card__info">
+                        <img class="card__image" src="./ICON/freezer.png" alt="">
+                        <h2 class="card__title">Lorem, ipsum dolor.</h2>
+                        <p class="card__par">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="card__info">
+                        <img class="card__image" src="./ICON/tray.png" alt="">
+                        <h2 class="card__title">Lorem, ipsum dolor.</h2>
+                        <p class="card__par">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="card__info">
+                        <img class="card__image" src="./ICON/free-delivery.png" alt="">
+                        <h2 class="card__title">Lorem, ipsum dolor.</h2>
+                        <p class="card__par">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+     <!-- End services section -->
+     <section class="map">
+        <h2 class="map__title">Ubicanos</h2>
+        <div class="map__container">
+            <div class="map__responsive">
+                <iframe 
+                    class="map__show" 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d37686.46687065915!2d-70.68230526198663!3d-33.39600229491671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1734730746338!5m2!1ses-419!2scl" 
+                    allowfullscreen 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer Section -->
+        <footer class="footer">
+        <h2 class="footer__title">Contactanos</h2>
+            <div class="footer__container">
+                <form class="footer__form" action="">
+
+                    <label class="footer__label" for="nombre">Nombre</label>
+                    <input class="footer__input" type="text" placeholder="John" name="nombre">
+                    
+                    <label class="footer__label" for="apellido">Apellido</label>
+                    <input class="footer__input" type="text" placeholder="Doe" name="apellido">
+                    
+                    <label class="footer__label" for="numero">Numero</label>
+                    <input class="footer__input" type="number" placeholder="+56911133344" name="numero">
+
+                    <label class="footer__label" for="email">Email</label>
+                    <input class="footer__input" type="email" placeholder="JohnDoe@gmail.com" name="email">
+                    
+                    <label class="footer__label" for="mensaje">Mensaje</label>
+                    <textarea class="footer__textarea" name="mensaje" id="mensaje" placeholder="Tu mensaje"></textarea>
+                    
+                    <input class="footer__send" type="submit" value="Enviar">
+
+                </form>
+            </div>
+        </footer>
+    
+    <!-- End Footer Section -->
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
